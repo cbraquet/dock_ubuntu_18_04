@@ -1,0 +1,3 @@
+# .dockerignore for dock_node_py3
+*.rst
+!README.rst
