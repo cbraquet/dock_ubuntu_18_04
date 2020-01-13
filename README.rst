@@ -34,4 +34,7 @@ In a bash terminal::
   docker image ls
   docker image rm 5a2df7387d8e
   docker image ls
+  docker container ls -a
+  docker container prune
+  docker run -it -d docky_ubuntu /bin/bash
 

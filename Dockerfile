@@ -9,5 +9,5 @@ RUN apt-get install -y python3 python-pip
 RUN pip install --upgrade pip
 RUN pip install pipenv
 
-CMD python --version && pip --version && pipenv --version && node -v && npm -v
+CMD python3 --version && pip --version && pipenv --version && node -v && npm -v
 
