@@ -29,3 +29,9 @@ In a bash terminal::
   git clone git@github.com:cbraquet/dock_ubuntu_18_04
   cd dock_ubuntu_18_04
   docker build .
+  docker image ls
+  docker build --tag docky_ubuntu .
+  docker image ls
+  docker image rm 5a2df7387d8e
+  docker image ls
+
