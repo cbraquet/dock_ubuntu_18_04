@@ -36,5 +36,9 @@ In a bash terminal::
   docker image ls
   docker container ls -a
   docker container prune
-  docker run -it -d docky_ubuntu /bin/bash
+  docker container ls -a
+  docker run -it docky_ubuntu /bin/bash
+  docker container ls -a
+  docker container prune
+  docker container ls -a
 
